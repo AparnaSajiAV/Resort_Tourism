@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Chakra Petch", sans-serif;    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+/* navigation bar */
+#nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+}
+#nav-bar img{
+    margin-left: 40px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+#nav-bar h1{
+    padding-right: 400px;
+    font-size: 30px;
+    color: goldenrod;
+}
+ul li{
+    display: inline;
+    margin:20px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color:bisque;
+}
+/* home */
+#home{
+    background-image: url("https://media2.thrillophilia.com/images/photos/000/314/929/original/1592284253_Sunset-Restaurant3.jpg?w=753&h=450&dpr=1.5");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:650px;
+}
+.home-heading{
+    width: 900px;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    color: white;
+    padding-top: 13%;
+    font-size: 30px;
+    font-weight: 800;
+}
+.home-content{
+    width: 500px;
+    margin-left: 7%;
+    color: white;
+    font-size: 20px;
+}
+/* rooms */
+#room{
+    margin: 5%;
+}
+.heading{
+    text-align: center;
+    margin: 5%;
+    font-size: 30px;
+    color: rgb(3, 125, 129);
+}
+.room-body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+}
+.rooms{
+    background-color: honeydew;
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 2px solid grey;
+}
+.rooms img{
+    width: 100%;
+    height: 250px;
+}
+h2{
+    margin: 2%;
+    text-align: center;
+}
+/* amenities */
+#amenities{
+    margin: 5%;
+}
+.amenities-body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+}
+.amenities{
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: honeydew;
+}
+.amenities img{
+    width: 100%;
+    height: 250px;
+}
+/* contact */
+#contact{
+    margin: 5%;
+}
+.contact-container{
+    background-image: url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/hotelier-images/07/bd/6872d91a4302da268074870118fc37dad05160ce2a47f9e2f61b5f1af4ff.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container input,.contact-container textarea,.contact-container button {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-container input:focus,.contact-container textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.contact-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.contact-container button:hover {
+    background-color: #0056b3;
+}
+/* footer */
+#footer{
+    margin: 3rem;
+}
+#pstyle{
+    text-align: center;
+    font-weight: 600;
+}
